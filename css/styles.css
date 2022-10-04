@@ -462,8 +462,7 @@ address {
 
 /* Address */
 .address {
-  margin-right: 70px;
-  width: 231px;
+  margin-right: 93px;
 }
 
 .footer-logo {
@@ -734,6 +733,10 @@ address {
   border-radius: 4px;
 }
 
+.form-subscribe-input {
+  cursor: pointer;
+}
+
 .form-subscribe-btn {
   display: flex;
   justify-content: center;
@@ -779,6 +782,9 @@ address {
   border-color: var(--accent-color);
 }
 
+.modal-form-input:hover {
+  cursor: pointer;
+}
 .modal-form-input-icon {
   display: block;
   position: absolute;
@@ -802,6 +808,9 @@ address {
   transition: border var(--transition-dur-and-func);
 }
 
+.modal-form-message {
+  cursor: pointer;
+}
 .modal-form-message::placeholder {
   font-size: 12px;
   line-height: 1.17;
@@ -830,6 +839,9 @@ address {
   color: var(--primery-text-color);
 }
 
+.modal-form-check-wrapper {
+  cursor: pointer;
+}
 .modal-form-own-check {
   margin-right: 8px;
   cursor: pointer;
