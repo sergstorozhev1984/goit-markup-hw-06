@@ -853,7 +853,7 @@ address {
 
 .modal-form-check:focus + .modal-form-own-check {
   outline: 2px solid var(--accent-color);
-  transition: outline var(--transition-dur-and-func);
+  border: none;
 }
 
 .modal-form-check-link {
